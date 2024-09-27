@@ -1,0 +1,1 @@
+SELECT * from {{ source('virginie', 'hospitalisations') }}
