@@ -1,6 +1,6 @@
 sources:
   - name: canada
-    database: projectasthma 
+    database: projectasthma
     schema: canada
     tables:
       - name: canada_light
