@@ -1,3 +1,6 @@
+
+{{ config(materialized='table') }}
+
 SELECT
   PERIODE_DE_REFERENCE, 
   GEO,
@@ -8,3 +11,4 @@ SELECT
   UNITE_DE_MESURE, 
   VALEUR
   from {{ source('canada', 'canada_light') }}
+
