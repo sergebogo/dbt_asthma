@@ -1,8 +1,0 @@
-version: 2
-
-sources:
-  - name: virginie
-    database: projectasthma 
-    schema: virginie  
-    tables:
-      - name: hospitalisations
